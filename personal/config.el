@@ -11,3 +11,6 @@
 
 ;; delete trailing whitespace only on changed lines
 (add-hook 'js2-mode-hook 'ws-butler-mode)
+
+;; set handlebars mode indent to 4
+(setq handlebars-basic-offset 4)
