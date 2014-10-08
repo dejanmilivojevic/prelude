@@ -14,3 +14,9 @@
 
 ;; set handlebars mode indent to 4
 (setq handlebars-basic-offset 4)
+
+
+(require 'auto-complete)
+     (global-auto-complete-mode t)
+
+(setq tern-command '("tern" "--no-port-file" "--persistent"))
