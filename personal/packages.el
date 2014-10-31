@@ -7,4 +7,8 @@
 			    auto-complete
 			    tern
 			    tern-auto-complete
-			    yasnippet))
+			    yasnippet
+			    sass-mode
+			    highlight-indentation
+			    json-mode
+			    json-reformat))
