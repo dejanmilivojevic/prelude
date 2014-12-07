@@ -11,4 +11,6 @@
 			    sass-mode
 			    highlight-indentation
 			    json-mode
-			    json-reformat))
+			    json-reformat
+			    js-comint))
+
