@@ -20,3 +20,5 @@
      (global-auto-complete-mode t)
 
 (setq tern-command '("tern" "--no-port-file" "--persistent"))
+
+(if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
