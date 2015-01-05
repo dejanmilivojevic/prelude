@@ -12,5 +12,6 @@
 			    highlight-indentation
 			    json-mode
 			    json-reformat
-			    js-comint))
+			    js-comint
+			    syslog-mode))
 
