@@ -7,7 +7,7 @@
 ;; activate js2-mode for js and json files
 (autoload 'js2-mode "js2-mode" nil t)
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
-(add-to-list 'auto-mode-alist '("\\.json$" . js2-mode))
+(add-to-list 'auto-mode-alist '("\\.json$" . json-mode))
 
 ;; delete trailing whitespace only on changed lines
 (add-hook 'js2-mode-hook 'ws-butler-mode)
